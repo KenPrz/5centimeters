@@ -44,6 +44,24 @@
             </div>
         </div>
     </div>
-    <script src="./js/index.js"></script>
+    <script>
+        $('#audio-control').click(function(){
+        if( $("#myVideo").prop('muted') ) {
+          $("#myVideo").prop('muted', false);
+          $(this).text('Mute');
+      // or toggle class, style it with a volume icon sprite, change background-position
+    } else {
+      $("#myVideo").prop('muted', true);
+      $(this).text('Unmute');
+    }
+});
+    </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="./js/jquery-sakura.min.js"></script>
+<script>
+$(window).load(function () {
+    $('body').sakura();
+});
+</script>
 </body>
 </html>
