@@ -45,3 +45,8 @@ ul {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
+
+video{
+  width: 100% !important;
+  height: 100% !important;
+}
