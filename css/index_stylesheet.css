@@ -2,7 +2,7 @@
 body{
     background-image:
     linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0, 0, 0, 0.75)),
-    url('images/background.jpg');
+    url('../images/background.jpg');
     background-size: 100%;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -44,7 +44,4 @@ ul {
 .header-description{
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
-}
-.description-bg{
-    background-color: rgba(0, 0, 0, 0.75);
 }
