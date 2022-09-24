@@ -1,23 +1,50 @@
-body {
-    background-color: #121212;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+body{
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0, 0, 0, 0.75)),
+    url('images/background.jpg');
+    background-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-li {
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.405);
+  }
+  
+  li {
     float: left;
-}
-li a{
-    border-radius: 10%;
+  }
+  
+  li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 13px 16px;
+    padding: 14px 16px;
     text-decoration: none;
-    transition: 0.5s
+    transition: .8s;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+
+.header{
+    padding-left: 10px;
+    text-align: left;
+    color: white;
 }
-li a:hover{
-    background-color: #303030;
+.header-title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: bold;
+    color: white;
+}
+.header-description{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.description-bg{
+    background-color: rgba(0, 0, 0, 0.75);
 }
